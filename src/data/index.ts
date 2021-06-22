@@ -54,8 +54,8 @@ async function createFirstUser(): Promise<any> {
     const newUser: any = await models.User.create({
       username: 'admin',
       password: '12345678',
-      email: 'carlos.santana@dev.education',
-      privilege: 'god',
+      email: 'admin@js.education',
+      privilege: 'owner',
       active: true
     })
 
